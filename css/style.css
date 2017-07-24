@@ -976,4 +976,135 @@ body{
   transition: 0.5s ease;
 }
 
+/*======================*/
+
+#pagination {
+  width: 1200px;
+  height: 420px;
+  margin: 0 auto;
+  background: gray;
+}
+
+.unitContacts {
+  width: 370px;
+  height: 325px;
+  float: left;
+  display: inline-block;
+}
+
+.leftContact {
+
+}
+
+.unitContacts h1{
+  margin-bottom: 7%;
+  padding: 0 0 33px 0;
+  font-weight: 100;
+  border-bottom: 3px solid #e8e5d3;
+  letter-spacing: normal;
+  line-height: 55px;
+  font-size: 45px;
+  color: #584a3e
+  
+}
+
+.unitContacts p{
+  position: relative;
+  margin: -7.2% 0 25px 0;
+  padding: 0 0 39px 40px;
+  border-bottom: 1px solid #e1ddc5;
+  line-height: 30px;
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #584a3e;
+}
+
+.unitContacts i {
+  font-size: 20px;
+  color: #584a3e;
+  text-transform: uppercase;
+  
+}
+
+.btnLeft a {
+  background: none;
+  position: relative;
+  margin: 0;
+  left: -9%;
+  padding: 4px 0 2px 41px;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9fcb00;
+}
+
+.btnLeft i {
+  font-size: 16px;
+  color: #9fcb00;
+  float: left;
+}
+
+.btnLeft a:hover {
+  color: #ffbf80;
+}
+
+.btnLeft i:hover {
+  color: #ffbf80;
+}
+
+.unitContacts2 {
+  width: 770px;
+  height: 415px;
+  float: right;
+}
+
+.unitContacts2 h1{
+  margin-bottom: 7%;
+  padding: 0 0 33px 0;
+  font-weight: 100; 
+  border-bottom: 3px solid #e8e5d3;
+  letter-spacing: normal;
+  line-height: 55px;
+  font-size: 45px;
+  color: #584a3e
+  
+}
+
+
+.boxSam {
+  width: 770px;
+  height: 212px;
+  background: white;
+}
+
+.boxSam img{
+  max-width: 100%;
+  height: auto;
+  margin: 1%;
+  vertical-align: middle;
+  border: 0;
+}
+
+
+.textSam{
+  margin: 1%;
+  float: right;
+}
+
+.textSam span {
+    margin: 0 0 22px 0;
+    line-height: 25px;
+    font-size: 21px;
+    color: #584a3e;
+}
+
+.textSam a {
+  text-decoration: none;
+  color: #65655d;
+}
+
+
 
