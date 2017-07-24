@@ -1,0 +1,59 @@
+.slideshow-container {
+	width: 1170px ;
+	height: 491px;
+	position: relative;
+	margin: auto; 
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	width: auto;
+	margin-top: -23%;
+    padding: 7%;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	transition: 0.4s ease;
+	
+} 
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover {
+	color: #9fcb00;
+}
+
+.next:hover {
+	color: #9fcb00;
+}
+
+.text {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top:0;
+
+}
+
+.fade {
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s; 
+
+}
+
+@-webkit-keyframes fade {
+	from{opacity:.7}
+	to{opacity: 2}
+}
+@keyframes fade {
+	from{opacity: .7}
+	to{opacity: 2}
+}
+
